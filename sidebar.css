@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway:200');
+
+body {
+    margin: 0;
+    background: #ecf0f1;
+    height: 100%;
+}
+
+.sidebar {
+    height: 96vh;
+    width: 15vw;
+    font-family: raleway;
+    background: #34495e;
+    padding: 15px 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.item {
+    color: white;
+    font-size: 20px;
+    padding-top: 0.3em;
+    padding-bottom: 0.3em;
+}
+
+.section {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}

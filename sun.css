@@ -1,0 +1,71 @@
+.sun {
+    background-color: yellow;
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+}
+
+.grass {
+    background-color: #68B354;
+    position: absolute;
+    margin: 0;
+    height: 600px;
+    width: 100%;
+}
+
+body {
+    background: darkblue;
+    margin: 0;
+    animation-name: day-change;
+    animation-duration: 5s;
+    animation-timing-function: linear;
+    animation-delay: 0s;
+    animation-iteration-count: infinite;
+}
+
+.sun {
+    animation-name: sun-move;
+    animation-duration: 5s;
+    animation-timing-function: linear;
+    animation-delay: 0s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes sun-move {
+    0%{
+        transform: translate(-200px, 100px);
+        background: orange;
+        font-size: 20px;
+    }
+    35%{
+        transform: translate(274px, 0px);
+    }
+    50%{
+        background: yellow;
+    }
+    75%{
+        transform: translate(874px, 0px);
+    }
+    100%{
+        background: red;
+        transform: translate(1148px, 100px);
+    }
+}
+
+@keyframes day-change {
+    0%{
+        background: darkblue;
+    }
+    20%{
+        background: pink;
+    }
+    50%{
+        background: lightblue;
+    }
+    75%{
+        background: pink;
+    }
+    100%{
+        background: blue;
+    }
+}

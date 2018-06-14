@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+    <head>
+        <meta charset="utf-8">
+        <title>Bitcoin Price</title>
+        <link rel="stylesheet" href="bitcoin_price.css" type="text/css">
+    </head>
+    <body>
+        <h1>Bitcoin Current Price is: <span id="price"></span></h1>
+        <form class="currency">
+            <label for="USD">USD: </label>
+            <input id="USD" type="radio" name="CURR" value="USD">
+            <label for="GBP">GBP: </label>
+            <input id="GBP" type="radio" name="CURR" value="GBP">
+            <label for="EUR">EUR: </label>
+            <input id="EUR" type="radio" name="CURR" value="EUR">
+            <br>
+            <button id="refresh">Refresh Data</button>
+        </form>
+        <script type="text/javascript" src="bitcoin_price.js"></script>
+    </body>
+</html>

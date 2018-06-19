@@ -1,0 +1,36 @@
+.container {
+    border: 5px solid black;
+    display: flex;
+    /*  Direction of main-axis */
+    flex-direction: row;
+    /* Space distribution */
+    /* justify-content: center; */
+    /* Stops from shrinking if the content in main axis goes out of bound */
+    /* flex-wrap: wrap; */
+    /* To align the items */
+    /* align-items: stretch; */
+    /* height: 600px; */
+    /*   Just like justify content buut with cross axis */
+    /* align-content: space-around; */
+    /* Just like width but in main-axis direction */
+    padding: 0;
+}
+
+
+.box {
+    /* border: 1px solid grey; */
+    flex-basis: 200px;
+    color: white;
+    font-size: 76px;
+    text-align: center;
+    border-radius: 0.3em;
+    height: 200px;
+    /* width: 200px; */
+}
+
+/* align-self -> Just like align items but to indivisual items */
+/* Oreder: to rearrange stuff (Note: by default it is 0 for an element) */
+.box1 {background: #E52341; flex-grow: 1;}
+.box2 {background: #52E341; flex-grow: 1;}
+.box3 {background: #5234E1;}
+.box4 {background: #246315;}

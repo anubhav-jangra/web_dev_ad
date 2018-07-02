@@ -1,0 +1,90 @@
+body {
+  background-color: #e4e4e4;
+}
+
+h1 {
+  text-align: center;
+}
+
+button::-moz-focus-inner {
+  border: 0;
+  outline: 0;
+}
+
+#notes {
+  margin: 0 auto;
+  width: 75%;
+}
+
+.note {
+  background-color: #fdffb7;
+  border: 8px solid #d4daa7;
+  border-radius: 8px;
+  padding: 10px;
+}
+
+.preview {
+    background-color: #B9F6CA;
+    border: 8px solid #66BB6A;
+    border-radius: 8px;
+    padding: 10px;
+}
+
+.form {
+  text-align: center;
+  margin-left: 12.5%;
+  margin-right: 12.5%;
+  display: flex;
+}
+
+form {
+    flex-grow: 1;
+    width: 50%;
+    display: flex;
+}
+
+form input {
+    flex-grow: 1;
+}
+
+input,
+button {
+  padding: 10px;
+}
+
+button {
+    border: none;
+    border-radius: 5px;
+    margin-left: 10px;
+}
+
+#add-note {
+    background-color: #ff9494;
+}
+
+#add-note:hover {
+  cursor: pointer;
+  background-color: #E1BEE7;
+}
+
+#remove-notes {
+    background-color: #F44336;
+}
+
+#remove-notes:hover {
+    cursor: pointer;
+    background-color: #E1BEE7;
+}
+
+#lucky {
+    background-color: #76FF03;
+}
+
+#lucky:hover {
+    cursor: pointer;
+    background-color: #E1BEE7;
+}
+
+button:focus {
+  outline: none;
+}

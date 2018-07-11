@@ -1,0 +1,13 @@
+svg {
+  margin: 0 auto;
+  display: block;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+}
+
+body * {
+    align-self: center;
+}

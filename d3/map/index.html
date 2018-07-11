@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>D3 Map</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <svg
+      version="1.1"
+      baseprofile="full"
+      xmlns="http://www.w2.org/2000/svg"
+      id="map">
+    </svg>
+    <select>
+        <option value="population">Population</option>
+        <option value="populationDensity">Population Density</option>
+        <option value="medianAge">Median Age</option>
+        <option value="fertilityRate">Fertility Rate</option>
+    </select>
+
+    <script type="text/javascript" src="https://d3js.org/d3.v4.js"></script>
+    <script type="text/javascript" src="https://unpkg.com/topojson@3"></script>
+    <script type="text/javascript" src="app.js"></script>
+</body>
+</html>

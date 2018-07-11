@@ -1,0 +1,8 @@
+.title {
+    text-align: center;
+}
+
+svg, input {
+  margin: 0 auto;
+  display: block;
+}

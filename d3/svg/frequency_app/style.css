@@ -34,18 +34,11 @@ form > button:hover {
   width: 800px;
 }
 
-.letter {
-  display: inline-block;
-  text-align: center;
-  width: 15px;
-  background-color: #ffc800;
-  vertical-align: bottom;
-  padding: 5px;
-  margin: 5px;
-  border-radius: .2em;
+rect {
+    fill: #FFF176;
 }
 
 .new {
-  font-size: 1.5em;
-  color: #ffffff;
+    font-size: 1.5em;
+    fill: #76FF03;
 }
